@@ -1,0 +1,14 @@
+<!--miniprogram/pages/3.10/index.wxml-->
+<view class="page-head">
+	<text class="page-head__title">tabBar</text>
+	<text class="page-head__desc">页面导航</text>
+</view>
+
+<view class="page-section">
+	<text class="page-section__title">3.10 原生tabBar</text>
+	<view class="btn-area">
+		<navigator open-type="navigate" url="/pages/3-10/index2">navigate to inex2</navigator>
+		<navigator open-type="switchTab" url="/pages/3-10/index2">switchtab to inex2</navigator>
+    <navigator url="/pages/3-10/index3">navigate to inex3</navigator>
+	</view>
+</view>

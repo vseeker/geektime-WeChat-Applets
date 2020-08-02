@@ -1,0 +1,3 @@
+<!--miniprogram/pages/3.10/custom/index.wxml-->
+<text>miniprogram/pages/3.10/custom/index.wxml</text>
+<CustomTabBar id="cbar"></CustomTabBar>

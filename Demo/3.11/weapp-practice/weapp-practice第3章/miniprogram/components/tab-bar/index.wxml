@@ -1,0 +1,9 @@
+<cover-view class="tabBar">
+  <cover-view class="tabbg"></cover-view>
+  <cover-view class="cu-bar tabbar">
+      <cover-view wx:for="{{list}}" wx:for-item="item" wx:key="index" class="action {{item.iconTopClass}} {{selected === index?'text-green':''}}" catchtap='switchTab' data-url="{{item.pagePath}}" data-path="{{item.pagePath}}" data-index="{{index}}">
+        <cover-view class='iconf {{item.iconClass}}'></cover-view> 
+        <cover-view>{{item.text}}{{index}}</cover-view>
+      </cover-view>
+  </cover-view>
+</cover-view>
